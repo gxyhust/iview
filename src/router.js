@@ -1,13 +1,13 @@
 const routers = [
     {
-        path: '/',
+        path: '/index',
         meta: {
             title: ''
         },
         component: (resolve) => require(['./views/index.vue'], resolve)
     },
     {
-        path: '/upload',
+        path: '/',
         meta: {
             title: 'upload'
         },
